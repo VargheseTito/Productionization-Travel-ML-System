@@ -7,6 +7,7 @@ from flask import Flask, render_template, request, jsonify
 
 #function to predict the price
 def predict_price(input_data, model, scaler):
+    
     # Prepare the input data
 
     # Initialize an empty DataFrame
